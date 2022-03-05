@@ -8,15 +8,51 @@
 */
 
 /**
+ * Defines, typedefs and constants
+*/
+typedef enum {
+    ROOTS,
+    SPHERE_VOLUME,
+    DISPLACEMENT,
+} operations_t;
+
+/**
  * Entry point
  */
 int main(){
 
     /**
-     * States
+     * Static variables
     */
 
     while(true){
+
+        /**
+         * States
+        */
+       operations_t op;
+
+       /**
+        * Get operation from user
+       */
+
+        switch(op){
+            case ROOTS:
+            break;
+
+            case SPHERE_VOLUME:
+            break;
+
+            case DISPLACEMENT:
+            break;
+
+            default:
+            break;
+        }
+
+        /**
+         * Ask user if he wishes to continue
+        */
 
     }
 
